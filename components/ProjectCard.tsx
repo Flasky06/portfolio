@@ -5,7 +5,7 @@ import React from "react";
 const ProjectCard = ({ title, backgroundImg, tech, projectUrl }) => {
   return (
     <main className="relative flex items-center justify-center h-[200px] w-full shadow shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]">
-      <div className="relative w-full h-28">
+      <div className="relative w-full h-full">
         <Image
           className="absolute rounded-xl group-hover:opacity-10  "
           src={backgroundImg}

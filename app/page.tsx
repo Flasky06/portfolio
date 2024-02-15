@@ -228,27 +228,21 @@ export default function Home() {
         <div className="grid grid-cols-3 gap-4 w-full">
           <ProjectCard
             title="gtc"
-            backgroundImg="/skills/postgress.png"
+            backgroundImg="/images/gtc.png"
             tech="next js"
             projectUrl="gtc"
           />
           <ProjectCard
-            title="gtc"
-            backgroundImg="/skills/postgress.png"
+            title="lawfirm"
+            backgroundImg="/images/law.png"
             tech="next js"
-            projectUrl="www.gtc.com"
+            projectUrl="law"
           />
           <ProjectCard
             title="gtc"
-            backgroundImg="/skills/postgress.png"
+            backgroundImg="/images/eatery.png"
             tech="next js"
-            projectUrl="www.gtc.com"
-          />
-          <ProjectCard
-            title="gtc"
-            backgroundImg="/skills/postgress.png"
-            tech="next js"
-            projectUrl="www.gtc.com"
+            projectUrl="eatery"
           />
         </div>
       </section>
