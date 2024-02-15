@@ -10,7 +10,7 @@ export default function Home() {
     <main className="">
       <section
         id="hero"
-        className="flex flex-col max-w-4xl mx-auto items-center justify-center gap-8 pt-48"
+        className="flex flex-col max-w-4xl mx-auto items-center justify-center gap-8 pt-40"
       >
         <p className="font-extralight text-xl ">
           LET'S BUILD SOMETHING TOGETHER
@@ -38,13 +38,13 @@ export default function Home() {
       </section>
       <section
         id="about"
-        className=" flex flex-col max-w-4xl mx-auto items-center  justify-center gap-4 mt-10 pt-48"
+        className=" flex flex-col max-w-4xl mx-auto   justify-center gap-4 mt-10 pt-48"
       >
-        <h3 className="text-center font-light text-3xl tracking-widest uppercase text-[#5651e5] ">
+        <h3 className="text-center font-light text-3xl tracking-widest uppercase text-blue-700 mb-10">
           About Me
         </h3>
         <h3 className="text-lg font-extralight capitalize">Who am i ?</h3>
-        <p className="text-md">
+        <p className="text-md py-2">
           I am a Software Developer,With over 2+ years of professional
           experience, I have a proven track record of delivering high-quality
           projects that combine my technical skills and creative flair. My work
@@ -66,11 +66,11 @@ export default function Home() {
         id="skills"
         className="flex flex-col max-w-6xl mx-auto items-center justify-center gap-4 pt-48"
       >
-        <h3 className="text-center font-light text-3xl tracking-widest uppercase text-[#5651e5]">
+        <h3 className="text-center font-light text-3xl tracking-widest uppercase text-blue-700 mb-10">
           Skills
         </h3>
         <div>
-          <div className="grid grid-cols-5 gap-4 justify-center items-center">
+          <div className="grid grid-cols-5 gap-4 justify-center items-center py-4">
             {/*  html*/}
             <div className="p-2 shadow rounded-xl  ease-in duration-300">
               <div className="flex flex-row gap-1 justify-center items-center">
@@ -222,7 +222,7 @@ export default function Home() {
         id="projects"
         className="flex flex-col max-w-5xl mx-auto items-center justify-center gap-8 pt-48 "
       >
-        <h3 className="text-center font-light text-3xl tracking-widest uppercase text-[#5651e5]">
+        <h3 className="text-center font-light text-3xl tracking-widest uppercase text-blue-700">
           Projects
         </h3>
         <div className="grid grid-cols-3 gap-4 w-full">
@@ -243,7 +243,7 @@ export default function Home() {
             backgroundImg="/skills/postgress.png"
             tech="next js"
             projectUrl="www.gtc.com"
-          />{" "}
+          />
           <ProjectCard
             title="gtc"
             backgroundImg="/skills/postgress.png"
@@ -255,9 +255,9 @@ export default function Home() {
 
       <section
         id="contact"
-        className="flex flex-col max-w-7xl mx-auto  justify-center gap-8 pt-48"
+        className="flex flex-col max-w-5xl mx-auto  justify-center gap-8 pt-40"
       >
-        <h3 className="text-center font-light text-3xl tracking-widest uppercase text-[#5651e5]">
+        <h3 className="text-center font-light text-3xl tracking-widest uppercase text-blue-700">
           Contact Me
         </h3>
         <div className="flex lg:flex-row flex-col gap-4">
