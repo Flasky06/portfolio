@@ -34,7 +34,7 @@ export default function Home() {
         </div>
       </section>
       <section className=" flex flex-col max-w-4xl mx-auto  justify-center gap-4 h-screen">
-        <h3 className="text-center text-xl tracking-widest uppercase text-blue-700">
+        <h3 className="text-center font-light text-3xl tracking-widest uppercase text-[#5651e5]">
           About Me
         </h3>
         <h3 className="text-lg font-extralight capitalize">Who am i ?</h3>
@@ -57,7 +57,7 @@ export default function Home() {
         </p>
       </section>
       <section className="flex flex-col max-w-6xl mx-auto items-center justify-center gap-4 h-screen">
-        <h3 className="text-center text-xl tracking-widest uppercase text-[#5651e5]">
+        <h3 className="text-center font-light text-3xl tracking-widest uppercase text-[#5651e5]">
           Skills
         </h3>
         <div>
@@ -210,7 +210,7 @@ export default function Home() {
         </div>
       </section>
       <section className="flex flex-col max-w-5xl mx-auto items-center justify-center gap-4 mt-6 ">
-        <h3 className="text-center text-xl tracking-widest uppercase text-[#5651e5]">
+        <h3 className="text-center font-light text-3xl tracking-widest uppercase text-[#5651e5]">
           Projects
         </h3>
         <div className="grid grid-cols-3 gap-4 w-full">
@@ -218,7 +218,7 @@ export default function Home() {
             title="gtc"
             backgroundImg="/skills/postgress.png"
             tech="next js"
-            projectUrl="www.gtc.com"
+            projectUrl="gtc"
           />
           <ProjectCard
             title="gtc"
@@ -241,8 +241,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="flex flex-col max-w-7xl mx-auto  justify-center gap-8 mt-6">
-        <h3 className="text-center text-xl tracking-widest uppercase text-[#5651e5]">
+      <section className="flex flex-col max-w-7xl mx-auto  justify-center gap-8 mt-5 h-screen">
+        <h3 className="text-center font-light text-3xl tracking-widest uppercase text-[#5651e5]">
           Contact Me
         </h3>
         <div className="flex lg:flex-row flex-col gap-4">
