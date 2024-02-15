@@ -7,8 +7,11 @@ import ProjectCard from "@/components/ProjectCard";
 
 export default function Home() {
   return (
-    <main className="mt-20">
-      <section className="flex flex-col max-w-4xl mx-auto items-center justify-center gap-8">
+    <main className="">
+      <section
+        id="hero"
+        className="flex flex-col max-w-4xl mx-auto items-center justify-center gap-8 pt-48"
+      >
         <p className="font-extralight text-xl ">
           LET'S BUILD SOMETHING TOGETHER
         </p>
@@ -33,8 +36,11 @@ export default function Home() {
           </span>
         </div>
       </section>
-      <section className=" flex flex-col max-w-4xl mx-auto  justify-center gap-4 h-screen">
-        <h3 className="text-center font-light text-3xl tracking-widest uppercase text-[#5651e5]">
+      <section
+        id="about"
+        className=" flex flex-col max-w-4xl mx-auto items-center  justify-center gap-4 mt-10 pt-48"
+      >
+        <h3 className="text-center font-light text-3xl tracking-widest uppercase text-[#5651e5] ">
           About Me
         </h3>
         <h3 className="text-lg font-extralight capitalize">Who am i ?</h3>
@@ -56,12 +62,15 @@ export default function Home() {
           Check out some of my latest projects.
         </p>
       </section>
-      <section className="flex flex-col max-w-6xl mx-auto items-center justify-center gap-4 h-screen">
+      <section
+        id="skills"
+        className="flex flex-col max-w-6xl mx-auto items-center justify-center gap-4 pt-48"
+      >
         <h3 className="text-center font-light text-3xl tracking-widest uppercase text-[#5651e5]">
           Skills
         </h3>
         <div>
-          <div className="grid grid-cols-5 gap-8 justify-center items-center">
+          <div className="grid grid-cols-5 gap-4 justify-center items-center">
             {/*  html*/}
             <div className="p-2 shadow rounded-xl  ease-in duration-300">
               <div className="flex flex-row gap-1 justify-center items-center">
@@ -209,7 +218,10 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="flex flex-col max-w-5xl mx-auto items-center justify-center gap-4 mt-6 ">
+      <section
+        id="projects"
+        className="flex flex-col max-w-5xl mx-auto items-center justify-center gap-8 pt-48 "
+      >
         <h3 className="text-center font-light text-3xl tracking-widest uppercase text-[#5651e5]">
           Projects
         </h3>
@@ -241,7 +253,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="flex flex-col max-w-7xl mx-auto  justify-center gap-8 mt-5 h-screen">
+      <section
+        id="contact"
+        className="flex flex-col max-w-7xl mx-auto  justify-center gap-8 pt-48"
+      >
         <h3 className="text-center font-light text-3xl tracking-widest uppercase text-[#5651e5]">
           Contact Me
         </h3>

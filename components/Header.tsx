@@ -1,5 +1,7 @@
+"use client";
 import React from "react";
 import Image from "next/image";
+import { Link } from "react-scroll";
 
 function Header() {
   return (
@@ -8,14 +10,42 @@ function Header() {
         <Image src={"/images/logo.png"} className="absolute " alt="/" fill />
       </div>
       <ul className="flex gap-4 capitalize">
-        <li className="cursor-pointer py-1 px-2 hover:text-blue-700">home</li>
-        <li className="cursor-pointer py-1 px-2 hover:text-blue-700">about</li>
-        <li className="cursor-pointer py-1 px-2 hover:text-blue-700">skills</li>
         <li className="cursor-pointer py-1 px-2 hover:text-blue-700">
-          projects
+          <Link to="hero" spy={true} smooth={true} offset={50} duration={700}>
+            home
+          </Link>
         </li>
         <li className="cursor-pointer py-1 px-2 hover:text-blue-700">
-          contact{" "}
+          <Link to="about" spy={true} smooth={true} offset={50} duration={700}>
+            about
+          </Link>
+        </li>
+        <li className="cursor-pointer py-1 px-2 hover:text-blue-700">
+          <Link to="skills" spy={true} smooth={true} offset={50} duration={700}>
+            skills
+          </Link>
+        </li>
+        <li className="cursor-pointer py-1 px-2 hover:text-blue-700">
+          <Link
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={700}
+          >
+            projects
+          </Link>
+        </li>
+        <li className="cursor-pointer py-1 px-2 hover:text-blue-700">
+          <Link
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={700}
+          >
+            contact
+          </Link>
         </li>
       </ul>
     </div>
