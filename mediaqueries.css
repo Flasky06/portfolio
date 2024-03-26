@@ -1,0 +1,95 @@
+/* Styles for screens with a minimum width of 600px */
+@media screen and (min-width: 600px) {
+  #desktop-nav {
+    display: flex;
+  }
+  #hamburger-nav {
+    display: none;
+  }
+
+  #skills {
+    margin-top: 5rem;
+  }
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .skills-sub-title {
+    text-align: center;
+  }
+  .skills-details-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .skills-article-container {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 5px; /* Fix: Add appropriate unit */
+  }
+  .projets-containers {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 5px;
+  }
+  #experience {
+    /* Add specific styles for the experience section if needed */
+  }
+  /* Other styles for larger screens */
+}
+
+/* Styles for screens with a maximum width of 600px */
+@media screen and (max-width: 600px) {
+  #contact,
+  footer {
+    height: 40vh;
+  }
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+  }
+  article {
+    font-size: 1rem;
+  }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  .contact-info-container {
+    margin: 0;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section__pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text-container {
+    text-align: justify;
+  }
+  /* Other styles for smaller screens */
+}
