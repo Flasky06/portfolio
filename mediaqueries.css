@@ -6,6 +6,34 @@
   #hamburger-nav {
     display: none;
   }
+  .section__pic-container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+  }
+  .details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+  }
+
+  .section-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    height: 80%;
+  }
+
+  .section__pic-container {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+  }
 
   #skills {
     margin-top: 5rem;
@@ -39,6 +67,13 @@
 
 /* Styles for screens with a maximum width of 600px */
 @media screen and (max-width: 600px) {
+  .section__pic-container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+  }
+
   #contact,
   footer {
     height: 40vh;

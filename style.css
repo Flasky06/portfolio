@@ -67,9 +67,12 @@ a:hover {
 }
 
 /* HAMBURGER MENU */
+#desktop-nav {
+  display: none;
+}
 
 #hamburger-nav {
-  display: none;
+  display: flex;
 }
 
 .hamburger-menu {
@@ -163,6 +166,7 @@ section {
 
 #profile {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   gap: 5rem;
   height: 80vh;
@@ -170,8 +174,8 @@ section {
 
 .section__pic-container {
   display: flex;
-  height: 400px;
-  width: 400px;
+  height: auto;
+  width: auto;
   margin: auto 0;
 }
 
@@ -264,10 +268,11 @@ section {
 /* ABOUT SECTION */
 
 #about {
+  display: flex;
+  flex-direction: column;
   /* position: relative; */
 }
-
-.about-containers {
+.section-container .about-containers {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
@@ -279,9 +284,14 @@ section {
   flex-direction: column;
 }
 
-.about-containers,
+.about-containers {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
 .about-details-container {
   display: flex;
+  width: 100%;
 }
 
 .about-pic {
@@ -295,16 +305,19 @@ section {
 }
 
 .details-container {
+  width: 100%;
   padding: 1.5rem;
-  flex: 1;
+  display: flex;
+  flex-direction: column;
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
-  text-align: center;
 }
 
 .section-container {
+  display: flex;
+  flex-direction: column;
   gap: 4rem;
   height: 80%;
 }
